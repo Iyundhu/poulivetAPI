@@ -1,0 +1,1601 @@
+{
+  "meta": {
+    "total_districts": 153,
+    "high_risk_count": 1,
+    "medium_risk_count": 15,
+    "low_risk_count": 137,
+    "most_common_disease": "Fowl Typhoid",
+    "disease_frequency": {
+      "Fowl Typhoid": 64,
+      "Newcastle Disease": 19,
+      "Gumboro": 13,
+      "Heat Stress": 16
+    },
+    "top5_risk_districts": [
+      {
+        "district": "Ntenjeru",
+        "risk_level": "HIGH",
+        "risk_score": 5,
+        "diseases_flagged": "Newcastle Disease, Fowl Typhoid, Gumboro",
+        "ndvi": 0.6182,
+        "moisture": 0.1845,
+        "temperature": 25.93,
+        "water": 73.43
+      },
+      {
+        "district": "Rubanda",
+        "risk_level": "MEDIUM",
+        "risk_score": 4,
+        "diseases_flagged": "Newcastle Disease, Fowl Typhoid",
+        "ndvi": 0.6192,
+        "moisture": 0.2016,
+        "temperature": 19.31,
+        "water": 93.0
+      },
+      {
+        "district": "Bufumbira",
+        "risk_level": "MEDIUM",
+        "risk_score": 4,
+        "diseases_flagged": "Newcastle Disease, Fowl Typhoid",
+        "ndvi": 0.6186,
+        "moisture": 0.2377,
+        "temperature": 19.33,
+        "water": 93.26
+      },
+      {
+        "district": "Kajara",
+        "risk_level": "MEDIUM",
+        "risk_score": 4,
+        "diseases_flagged": "Newcastle Disease, Fowl Typhoid",
+        "ndvi": 0.6707,
+        "moisture": 0.1915,
+        "temperature": 22.77,
+        "water": 79.64
+      },
+      {
+        "district": "Bunyangabu",
+        "risk_level": "MEDIUM",
+        "risk_score": 4,
+        "diseases_flagged": "Newcastle Disease, Fowl Typhoid",
+        "ndvi": 0.6244,
+        "moisture": 0.2463,
+        "temperature": 21.38,
+        "water": 63.14
+      }
+    ],
+    "last_updated": "2025-02-01",
+    "data_source": "Sentinel-2 & MODIS Satellite Imagery"
+  },
+  "districts": [
+    {
+      "district": "Adjumani",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Fowl Typhoid",
+      "ndvi": 0.4345,
+      "moisture": -0.0174,
+      "temperature": 29.15,
+      "water": 63.54
+    },
+    {
+      "district": "Kole",
+      "risk_level": "LOW",
+      "risk_score": 0,
+      "diseases_flagged": "None detected",
+      "ndvi": 0.5162,
+      "moisture": 0.0247,
+      "temperature": 28.28,
+      "water": 0.59
+    },
+    {
+      "district": "Kwania",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Fowl Typhoid",
+      "ndvi": 0.43,
+      "moisture": 0.0626,
+      "temperature": 27.58,
+      "water": 93.0
+    },
+    {
+      "district": "Maruzi",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Fowl Typhoid",
+      "ndvi": 0.5139,
+      "moisture": 0.0737,
+      "temperature": 27.46,
+      "water": 89.66
+    },
+    {
+      "district": "Oyam",
+      "risk_level": "LOW",
+      "risk_score": 0,
+      "diseases_flagged": "None detected",
+      "ndvi": 0.515,
+      "moisture": 0.0264,
+      "temperature": 28.04,
+      "water": 33.13
+    },
+    {
+      "district": "Bwamba",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Newcastle Disease",
+      "ndvi": 0.5605,
+      "moisture": 0.2458,
+      "temperature": 20.35,
+      "water": 36.67
+    },
+    {
+      "district": "Ntoroko",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Fowl Typhoid",
+      "ndvi": 0.3724,
+      "moisture": 0.1103,
+      "temperature": 27.32,
+      "water": 92.01
+    },
+    {
+      "district": "Buhweju",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Newcastle Disease",
+      "ndvi": 0.6855,
+      "moisture": 0.2017,
+      "temperature": 21.87,
+      "water": 0.0
+    },
+    {
+      "district": "Bunyaruguru",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Fowl Typhoid",
+      "ndvi": 0.423,
+      "moisture": 0.1548,
+      "temperature": 23.55,
+      "water": 97.48
+    },
+    {
+      "district": "Igara",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Newcastle Disease",
+      "ndvi": 0.6986,
+      "moisture": 0.2229,
+      "temperature": 22.6,
+      "water": 15.0
+    },
+    {
+      "district": "Ruhinda",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Newcastle Disease",
+      "ndvi": 0.6804,
+      "moisture": 0.2005,
+      "temperature": 23.01,
+      "water": 4.0
+    },
+    {
+      "district": "Sheema",
+      "risk_level": "LOW",
+      "risk_score": 0,
+      "diseases_flagged": "None detected",
+      "ndvi": 0.6525,
+      "moisture": 0.1764,
+      "temperature": 23.08,
+      "water": 4.17
+    },
+    {
+      "district": "Samia-bugwe",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Fowl Typhoid",
+      "ndvi": 0.5345,
+      "moisture": 0.102,
+      "temperature": 26.86,
+      "water": 87.99
+    },
+    {
+      "district": "Aswa",
+      "risk_level": "LOW",
+      "risk_score": 0,
+      "diseases_flagged": "None detected",
+      "ndvi": 0.4127,
+      "moisture": -0.0427,
+      "temperature": 29.9,
+      "water": 8.27
+    },
+    {
+      "district": "Gulu Municipality",
+      "risk_level": "LOW",
+      "risk_score": 0,
+      "diseases_flagged": "None detected",
+      "ndvi": 0.4368,
+      "moisture": 0.012,
+      "temperature": 28.78,
+      "water": 43.5
+    },
+    {
+      "district": "Kilak",
+      "risk_level": "LOW",
+      "risk_score": 0,
+      "diseases_flagged": "None detected",
+      "ndvi": 0.4114,
+      "moisture": -0.0507,
+      "temperature": 29.92,
+      "water": 42.93
+    },
+    {
+      "district": "Nwoya",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Fowl Typhoid",
+      "ndvi": 0.4644,
+      "moisture": -0.0044,
+      "temperature": 28.68,
+      "water": 81.57
+    },
+    {
+      "district": "Omoro",
+      "risk_level": "LOW",
+      "risk_score": 0,
+      "diseases_flagged": "None detected",
+      "ndvi": 0.4833,
+      "moisture": 0.0141,
+      "temperature": 28.49,
+      "water": 3.88
+    },
+    {
+      "district": "Bugahya",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Fowl Typhoid",
+      "ndvi": 0.249,
+      "moisture": 0.0313,
+      "temperature": 26.6,
+      "water": 98.82
+    },
+    {
+      "district": "Buhaguzi",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Fowl Typhoid",
+      "ndvi": 0.3136,
+      "moisture": 0.1037,
+      "temperature": 25.42,
+      "water": 98.83
+    },
+    {
+      "district": "Butembe",
+      "risk_level": "MEDIUM",
+      "risk_score": 3,
+      "diseases_flagged": "Fowl Typhoid, Gumboro",
+      "ndvi": 0.4495,
+      "moisture": 0.1676,
+      "temperature": 26.51,
+      "water": 94.43
+    },
+    {
+      "district": "Jinja Municipality",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Fowl Typhoid",
+      "ndvi": 0.285,
+      "moisture": 0.0275,
+      "temperature": 26.15,
+      "water": 88.04
+    },
+    {
+      "district": "Kagoma",
+      "risk_level": "MEDIUM",
+      "risk_score": 3,
+      "diseases_flagged": "Fowl Typhoid, Gumboro",
+      "ndvi": 0.4939,
+      "moisture": 0.1576,
+      "temperature": 25.98,
+      "water": 62.42
+    },
+    {
+      "district": "Kabale Municipality",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Newcastle Disease",
+      "ndvi": 0.6766,
+      "moisture": 0.2075,
+      "temperature": 21.41,
+      "water": 2.0
+    },
+    {
+      "district": "Ndorwa",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Fowl Typhoid",
+      "ndvi": 0.6403,
+      "moisture": 0.1669,
+      "temperature": 21.05,
+      "water": 92.83
+    },
+    {
+      "district": "Rubanda",
+      "risk_level": "MEDIUM",
+      "risk_score": 4,
+      "diseases_flagged": "Newcastle Disease, Fowl Typhoid",
+      "ndvi": 0.6192,
+      "moisture": 0.2016,
+      "temperature": 19.31,
+      "water": 93.0
+    },
+    {
+      "district": "Rukiga",
+      "risk_level": "LOW",
+      "risk_score": 0,
+      "diseases_flagged": "None detected",
+      "ndvi": 0.6302,
+      "moisture": 0.1647,
+      "temperature": 22.3,
+      "water": 0.0
+    },
+    {
+      "district": "Bukonjo",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Fowl Typhoid",
+      "ndvi": 0.2986,
+      "moisture": 0.1073,
+      "temperature": 21.78,
+      "water": 98.07
+    },
+    {
+      "district": "Busongora",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Fowl Typhoid",
+      "ndvi": 0.4503,
+      "moisture": 0.1327,
+      "temperature": 23.79,
+      "water": 95.49
+    },
+    {
+      "district": "Bugangaizi",
+      "risk_level": "LOW",
+      "risk_score": 0,
+      "diseases_flagged": "None detected",
+      "ndvi": 0.5664,
+      "moisture": 0.0917,
+      "temperature": 26.07,
+      "water": 1.67
+    },
+    {
+      "district": "Buyaga",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Fowl Typhoid",
+      "ndvi": 0.5485,
+      "moisture": 0.1447,
+      "temperature": 24.94,
+      "water": 98.36
+    },
+    {
+      "district": "Buyanja",
+      "risk_level": "LOW",
+      "risk_score": 0,
+      "diseases_flagged": "None detected",
+      "ndvi": 0.6178,
+      "moisture": 0.1446,
+      "temperature": 24.85,
+      "water": 0.0
+    },
+    {
+      "district": "Kiboga",
+      "risk_level": "LOW",
+      "risk_score": 0,
+      "diseases_flagged": "None detected",
+      "ndvi": 0.5966,
+      "moisture": 0.1111,
+      "temperature": 26.97,
+      "water": 5.51
+    },
+    {
+      "district": "Bufumbira",
+      "risk_level": "MEDIUM",
+      "risk_score": 4,
+      "diseases_flagged": "Newcastle Disease, Fowl Typhoid",
+      "ndvi": 0.6186,
+      "moisture": 0.2377,
+      "temperature": 19.33,
+      "water": 93.26
+    },
+    {
+      "district": "Bukedea",
+      "risk_level": "LOW",
+      "risk_score": 1,
+      "diseases_flagged": "Heat Stress",
+      "ndvi": 0.4584,
+      "moisture": -0.019,
+      "temperature": 30.24,
+      "water": 3.33
+    },
+    {
+      "district": "Kumi",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Fowl Typhoid",
+      "ndvi": 0.4551,
+      "moisture": 0.0244,
+      "temperature": 29.7,
+      "water": 89.84
+    },
+    {
+      "district": "Ngora",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Fowl Typhoid",
+      "ndvi": 0.4908,
+      "moisture": 0.0685,
+      "temperature": 29.08,
+      "water": 83.21
+    },
+    {
+      "district": "Bukomansimbi",
+      "risk_level": "LOW",
+      "risk_score": 0,
+      "diseases_flagged": "None detected",
+      "ndvi": 0.3987,
+      "moisture": 0.1312,
+      "temperature": 24.44,
+      "water": 8.33
+    },
+    {
+      "district": "Kalungu",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Fowl Typhoid",
+      "ndvi": 0.3778,
+      "moisture": 0.1429,
+      "temperature": 24.6,
+      "water": 89.16
+    },
+    {
+      "district": "Obongi",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Fowl Typhoid",
+      "ndvi": 0.3877,
+      "moisture": -0.0234,
+      "temperature": 29.5,
+      "water": 67.66
+    },
+    {
+      "district": "West Moyo",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Fowl Typhoid",
+      "ndvi": 0.4389,
+      "moisture": -0.0295,
+      "temperature": 29.21,
+      "water": 68.19
+    },
+    {
+      "district": "Jonam",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Fowl Typhoid",
+      "ndvi": 0.3689,
+      "moisture": -0.0157,
+      "temperature": 29.7,
+      "water": 93.26
+    },
+    {
+      "district": "Okoro",
+      "risk_level": "LOW",
+      "risk_score": 0,
+      "diseases_flagged": "None detected",
+      "ndvi": 0.6518,
+      "moisture": 0.1432,
+      "temperature": 24.48,
+      "water": 49.0
+    },
+    {
+      "district": "Padyere",
+      "risk_level": "LOW",
+      "risk_score": 0,
+      "diseases_flagged": "None detected",
+      "ndvi": 0.5069,
+      "moisture": 0.0299,
+      "temperature": 28.52,
+      "water": 1.75
+    },
+    {
+      "district": "Kajara",
+      "risk_level": "MEDIUM",
+      "risk_score": 4,
+      "diseases_flagged": "Newcastle Disease, Fowl Typhoid",
+      "ndvi": 0.6707,
+      "moisture": 0.1915,
+      "temperature": 22.77,
+      "water": 79.64
+    },
+    {
+      "district": "Ruhaama",
+      "risk_level": "LOW",
+      "risk_score": 0,
+      "diseases_flagged": "None detected",
+      "ndvi": 0.6405,
+      "moisture": 0.1632,
+      "temperature": 23.61,
+      "water": 18.25
+    },
+    {
+      "district": "Rushenyi",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Fowl Typhoid",
+      "ndvi": 0.6185,
+      "moisture": 0.1428,
+      "temperature": 23.96,
+      "water": 77.37
+    },
+    {
+      "district": "Budaka",
+      "risk_level": "LOW",
+      "risk_score": 0,
+      "diseases_flagged": "None detected",
+      "ndvi": 0.4875,
+      "moisture": 0.0158,
+      "temperature": 28.4,
+      "water": 3.25
+    },
+    {
+      "district": "Butebo",
+      "risk_level": "LOW",
+      "risk_score": 0,
+      "diseases_flagged": "None detected",
+      "ndvi": 0.4791,
+      "moisture": -0.0006,
+      "temperature": 29.63,
+      "water": 6.25
+    },
+    {
+      "district": "Kibuku",
+      "risk_level": "LOW",
+      "risk_score": 0,
+      "diseases_flagged": "None detected",
+      "ndvi": 0.5495,
+      "moisture": 0.0656,
+      "temperature": 28.27,
+      "water": 7.8
+    },
+    {
+      "district": "Pallisa",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Fowl Typhoid",
+      "ndvi": 0.4668,
+      "moisture": 0.0393,
+      "temperature": 28.27,
+      "water": 83.06
+    },
+    {
+      "district": "Kabula",
+      "risk_level": "LOW",
+      "risk_score": 0,
+      "diseases_flagged": "None detected",
+      "ndvi": 0.5872,
+      "moisture": 0.0757,
+      "temperature": 25.0,
+      "water": 8.2
+    },
+    {
+      "district": "Kakuuto",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Fowl Typhoid",
+      "ndvi": 0.5123,
+      "moisture": 0.0569,
+      "temperature": 24.16,
+      "water": 98.22
+    },
+    {
+      "district": "Kooki",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Fowl Typhoid",
+      "ndvi": 0.5567,
+      "moisture": 0.1002,
+      "temperature": 24.09,
+      "water": 91.68
+    },
+    {
+      "district": "Lwemiyaga",
+      "risk_level": "LOW",
+      "risk_score": 0,
+      "diseases_flagged": "None detected",
+      "ndvi": 0.5729,
+      "moisture": 0.0638,
+      "temperature": 26.04,
+      "water": 40.62
+    },
+    {
+      "district": "Mawogola",
+      "risk_level": "LOW",
+      "risk_score": 0,
+      "diseases_flagged": "None detected",
+      "ndvi": 0.596,
+      "moisture": 0.1317,
+      "temperature": 24.56,
+      "water": 3.58
+    },
+    {
+      "district": "Bugweri",
+      "risk_level": "LOW",
+      "risk_score": 0,
+      "diseases_flagged": "None detected",
+      "ndvi": 0.5724,
+      "moisture": 0.0993,
+      "temperature": 27.5,
+      "water": 4.67
+    },
+    {
+      "district": "Busiki",
+      "risk_level": "LOW",
+      "risk_score": 0,
+      "diseases_flagged": "None detected",
+      "ndvi": 0.5574,
+      "moisture": 0.0781,
+      "temperature": 28.35,
+      "water": 19.32
+    },
+    {
+      "district": "Kigulu",
+      "risk_level": "LOW",
+      "risk_score": 0,
+      "diseases_flagged": "None detected",
+      "ndvi": 0.5848,
+      "moisture": 0.1297,
+      "temperature": 27.13,
+      "water": 1.55
+    },
+    {
+      "district": "Luuka",
+      "risk_level": "LOW",
+      "risk_score": 0,
+      "diseases_flagged": "None detected",
+      "ndvi": 0.5537,
+      "moisture": 0.1323,
+      "temperature": 27.43,
+      "water": 1.33
+    },
+    {
+      "district": "Bunyangabu",
+      "risk_level": "MEDIUM",
+      "risk_score": 4,
+      "diseases_flagged": "Newcastle Disease, Fowl Typhoid",
+      "ndvi": 0.6244,
+      "moisture": 0.2463,
+      "temperature": 21.38,
+      "water": 63.14
+    },
+    {
+      "district": "Burahya",
+      "risk_level": "MEDIUM",
+      "risk_score": 4,
+      "diseases_flagged": "Newcastle Disease, Fowl Typhoid",
+      "ndvi": 0.6908,
+      "moisture": 0.2429,
+      "temperature": 22.77,
+      "water": 61.86
+    },
+    {
+      "district": "Fort Portal Municipality",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Newcastle Disease",
+      "ndvi": 0.6491,
+      "moisture": 0.2171,
+      "temperature": 22.56,
+      "water": 48.0
+    },
+    {
+      "district": "Kaberamaido",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Fowl Typhoid",
+      "ndvi": 0.3864,
+      "moisture": 0.0479,
+      "temperature": 28.2,
+      "water": 94.12
+    },
+    {
+      "district": "Kalaki",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Fowl Typhoid",
+      "ndvi": 0.4427,
+      "moisture": 0.0225,
+      "temperature": 28.53,
+      "water": 92.27
+    },
+    {
+      "district": "Kibale",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Newcastle Disease",
+      "ndvi": 0.6658,
+      "moisture": 0.1916,
+      "temperature": 23.74,
+      "water": 20.33
+    },
+    {
+      "district": "Kitagwenda",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Fowl Typhoid",
+      "ndvi": 0.5417,
+      "moisture": 0.138,
+      "temperature": 24.0,
+      "water": 95.99
+    },
+    {
+      "district": "Kinkiizi",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Fowl Typhoid",
+      "ndvi": 0.6024,
+      "moisture": 0.1531,
+      "temperature": 23.56,
+      "water": 97.16
+    },
+    {
+      "district": "Bbaale",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Fowl Typhoid",
+      "ndvi": 0.4803,
+      "moisture": 0.1252,
+      "temperature": 27.2,
+      "water": 92.39
+    },
+    {
+      "district": "Ntenjeru",
+      "risk_level": "HIGH",
+      "risk_score": 5,
+      "diseases_flagged": "Newcastle Disease, Fowl Typhoid, Gumboro",
+      "ndvi": 0.6182,
+      "moisture": 0.1845,
+      "temperature": 25.93,
+      "water": 73.43
+    },
+    {
+      "district": "Chua",
+      "risk_level": "LOW",
+      "risk_score": 1,
+      "diseases_flagged": "Heat Stress",
+      "ndvi": 0.4236,
+      "moisture": -0.0435,
+      "temperature": 30.07,
+      "water": 7.86
+    },
+    {
+      "district": "Lamwo",
+      "risk_level": "LOW",
+      "risk_score": 1,
+      "diseases_flagged": "Heat Stress",
+      "ndvi": 0.3863,
+      "moisture": -0.0651,
+      "temperature": 30.1,
+      "water": 8.45
+    },
+    {
+      "district": "Kyaka",
+      "risk_level": "LOW",
+      "risk_score": 0,
+      "diseases_flagged": "None detected",
+      "ndvi": 0.6293,
+      "moisture": 0.1459,
+      "temperature": 24.38,
+      "water": 10.8
+    },
+    {
+      "district": "Mwenge",
+      "risk_level": "MEDIUM",
+      "risk_score": 3,
+      "diseases_flagged": "Newcastle Disease, Gumboro",
+      "ndvi": 0.6618,
+      "moisture": 0.1934,
+      "temperature": 24.04,
+      "water": 0.0
+    },
+    {
+      "district": "Bujenje",
+      "risk_level": "LOW",
+      "risk_score": 0,
+      "diseases_flagged": "None detected",
+      "ndvi": 0.5557,
+      "moisture": 0.1011,
+      "temperature": 26.96,
+      "water": 28.17
+    },
+    {
+      "district": "Buliisa",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Fowl Typhoid",
+      "ndvi": 0.2103,
+      "moisture": 0.0839,
+      "temperature": 26.64,
+      "water": 97.44
+    },
+    {
+      "district": "Kibanda",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Fowl Typhoid",
+      "ndvi": 0.5745,
+      "moisture": 0.0795,
+      "temperature": 27.34,
+      "water": 71.92
+    },
+    {
+      "district": "Buruli M",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Fowl Typhoid",
+      "ndvi": 0.561,
+      "moisture": 0.0751,
+      "temperature": 27.58,
+      "water": 68.5
+    },
+    {
+      "district": "Bunya",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Fowl Typhoid",
+      "ndvi": 0.1008,
+      "moisture": 0.0989,
+      "temperature": 23.84,
+      "water": 98.0
+    },
+    {
+      "district": "Bokora",
+      "risk_level": "LOW",
+      "risk_score": 1,
+      "diseases_flagged": "Heat Stress",
+      "ndvi": 0.3444,
+      "moisture": -0.0821,
+      "temperature": 32.93,
+      "water": 10.21
+    },
+    {
+      "district": "Matheniko",
+      "risk_level": "LOW",
+      "risk_score": 1,
+      "diseases_flagged": "Heat Stress",
+      "ndvi": 0.2667,
+      "moisture": -0.1246,
+      "temperature": 31.18,
+      "water": 10.69
+    },
+    {
+      "district": "Moroto Municipality",
+      "risk_level": "LOW",
+      "risk_score": 1,
+      "diseases_flagged": "Heat Stress",
+      "ndvi": 0.4343,
+      "moisture": 0.0582,
+      "temperature": 32.73,
+      "water": 0.0
+    },
+    {
+      "district": "Butambala",
+      "risk_level": "LOW",
+      "risk_score": 1,
+      "diseases_flagged": "Gumboro",
+      "ndvi": 0.364,
+      "moisture": 0.19,
+      "temperature": 24.6,
+      "water": 15.0
+    },
+    {
+      "district": "Gomba",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Fowl Typhoid",
+      "ndvi": 0.4811,
+      "moisture": 0.1319,
+      "temperature": 25.35,
+      "water": 81.0
+    },
+    {
+      "district": "Mawokota",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Fowl Typhoid",
+      "ndvi": 0.2579,
+      "moisture": 0.1155,
+      "temperature": 24.28,
+      "water": 97.45
+    },
+    {
+      "district": "Buyikwe",
+      "risk_level": "MEDIUM",
+      "risk_score": 3,
+      "diseases_flagged": "Fowl Typhoid, Gumboro",
+      "ndvi": 0.3206,
+      "moisture": 0.1817,
+      "temperature": 24.58,
+      "water": 97.43
+    },
+    {
+      "district": "Nakifuma",
+      "risk_level": "MEDIUM",
+      "risk_score": 3,
+      "diseases_flagged": "Newcastle Disease, Gumboro",
+      "ndvi": 0.7289,
+      "moisture": 0.3118,
+      "temperature": 25.06,
+      "water": 3.47
+    },
+    {
+      "district": "Kadani (chekwii)",
+      "risk_level": "LOW",
+      "risk_score": 1,
+      "diseases_flagged": "Heat Stress",
+      "ndvi": 0.3662,
+      "moisture": -0.0778,
+      "temperature": 31.44,
+      "water": 9.2
+    },
+    {
+      "district": "Pian",
+      "risk_level": "LOW",
+      "risk_score": 1,
+      "diseases_flagged": "Heat Stress",
+      "ndvi": 0.3621,
+      "moisture": -0.0873,
+      "temperature": 32.46,
+      "water": 16.92
+    },
+    {
+      "district": "Upe",
+      "risk_level": "LOW",
+      "risk_score": 1,
+      "diseases_flagged": "Heat Stress",
+      "ndvi": 0.2664,
+      "moisture": -0.1397,
+      "temperature": 31.66,
+      "water": 12.0
+    },
+    {
+      "district": "Buruli",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Fowl Typhoid",
+      "ndvi": 0.5124,
+      "moisture": 0.0864,
+      "temperature": 27.71,
+      "water": 92.52
+    },
+    {
+      "district": "Agago",
+      "risk_level": "LOW",
+      "risk_score": 1,
+      "diseases_flagged": "Heat Stress",
+      "ndvi": 0.4197,
+      "moisture": -0.0443,
+      "temperature": 30.39,
+      "water": 5.29
+    },
+    {
+      "district": "Aruu",
+      "risk_level": "LOW",
+      "risk_score": 1,
+      "diseases_flagged": "Heat Stress",
+      "ndvi": 0.3991,
+      "moisture": -0.0635,
+      "temperature": 30.34,
+      "water": 3.76
+    },
+    {
+      "district": "Rubabo",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Newcastle Disease",
+      "ndvi": 0.6632,
+      "moisture": 0.1999,
+      "temperature": 22.7,
+      "water": 20.5
+    },
+    {
+      "district": "Rujumbura",
+      "risk_level": "MEDIUM",
+      "risk_score": 4,
+      "diseases_flagged": "Newcastle Disease, Fowl Typhoid",
+      "ndvi": 0.6077,
+      "moisture": 0.1821,
+      "temperature": 23.8,
+      "water": 97.89
+    },
+    {
+      "district": "Budadiri",
+      "risk_level": "LOW",
+      "risk_score": 1,
+      "diseases_flagged": "Gumboro",
+      "ndvi": 0.5778,
+      "moisture": 0.1531,
+      "temperature": 25.28,
+      "water": 5.0
+    },
+    {
+      "district": "Bulambuli",
+      "risk_level": "LOW",
+      "risk_score": 0,
+      "diseases_flagged": "None detected",
+      "ndvi": 0.4741,
+      "moisture": 0.0943,
+      "temperature": 25.13,
+      "water": 1.36
+    },
+    {
+      "district": "Kasilo",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Fowl Typhoid",
+      "ndvi": 0.267,
+      "moisture": 0.0626,
+      "temperature": 26.87,
+      "water": 93.83
+    },
+    {
+      "district": "Serere",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Fowl Typhoid",
+      "ndvi": 0.5169,
+      "moisture": 0.0357,
+      "temperature": 28.99,
+      "water": 78.41
+    },
+    {
+      "district": "Soroti",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Fowl Typhoid",
+      "ndvi": 0.4716,
+      "moisture": 0.0091,
+      "temperature": 29.39,
+      "water": 77.96
+    },
+    {
+      "district": "Soroti Municipality",
+      "risk_level": "LOW",
+      "risk_score": 1,
+      "diseases_flagged": "Heat Stress",
+      "ndvi": 0.4134,
+      "moisture": -0.0417,
+      "temperature": 30.85,
+      "water": 1.0
+    },
+    {
+      "district": "Busiro",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Fowl Typhoid",
+      "ndvi": 0.5994,
+      "moisture": 0.1368,
+      "temperature": 24.4,
+      "water": 97.39
+    },
+    {
+      "district": "Aringa",
+      "risk_level": "LOW",
+      "risk_score": 0,
+      "diseases_flagged": "None detected",
+      "ndvi": 0.4115,
+      "moisture": -0.0721,
+      "temperature": 29.75,
+      "water": 2.6
+    },
+    {
+      "district": "Kyoga",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Fowl Typhoid",
+      "ndvi": 0.1739,
+      "moisture": 0.092,
+      "temperature": 26.11,
+      "water": 96.36
+    },
+    {
+      "district": "Amuria",
+      "risk_level": "LOW",
+      "risk_score": 0,
+      "diseases_flagged": "None detected",
+      "ndvi": 0.4849,
+      "moisture": -0.0087,
+      "temperature": 29.5,
+      "water": 11.89
+    },
+    {
+      "district": "Kapelebyong",
+      "risk_level": "LOW",
+      "risk_score": 1,
+      "diseases_flagged": "Heat Stress",
+      "ndvi": 0.4376,
+      "moisture": -0.0548,
+      "temperature": 30.73,
+      "water": 1.46
+    },
+    {
+      "district": "Arua Municipality",
+      "risk_level": "LOW",
+      "risk_score": 0,
+      "diseases_flagged": "None detected",
+      "ndvi": 0.4178,
+      "moisture": 0.0088,
+      "temperature": 26.49,
+      "water": 0.0
+    },
+    {
+      "district": "Ayivu",
+      "risk_level": "LOW",
+      "risk_score": 0,
+      "diseases_flagged": "None detected",
+      "ndvi": 0.506,
+      "moisture": 0.0115,
+      "temperature": 27.0,
+      "water": 1.0
+    },
+    {
+      "district": "Madi-okollo",
+      "risk_level": "LOW",
+      "risk_score": 0,
+      "diseases_flagged": "None detected",
+      "ndvi": 0.4391,
+      "moisture": -0.0112,
+      "temperature": 29.52,
+      "water": 59.48
+    },
+    {
+      "district": "Maracha",
+      "risk_level": "LOW",
+      "risk_score": 0,
+      "diseases_flagged": "None detected",
+      "ndvi": 0.4705,
+      "moisture": -0.0091,
+      "temperature": 27.81,
+      "water": 1.0
+    },
+    {
+      "district": "Terego",
+      "risk_level": "LOW",
+      "risk_score": 0,
+      "diseases_flagged": "None detected",
+      "ndvi": 0.4142,
+      "moisture": -0.0389,
+      "temperature": 29.84,
+      "water": 59.4
+    },
+    {
+      "district": "Vurra",
+      "risk_level": "LOW",
+      "risk_score": 0,
+      "diseases_flagged": "None detected",
+      "ndvi": 0.5506,
+      "moisture": 0.0719,
+      "temperature": 27.12,
+      "water": 0.0
+    },
+    {
+      "district": "Kongasis",
+      "risk_level": "LOW",
+      "risk_score": 0,
+      "diseases_flagged": "None detected",
+      "ndvi": 0.6002,
+      "moisture": 0.1623,
+      "temperature": 21.87,
+      "water": 47.0
+    },
+    {
+      "district": "Bunyole",
+      "risk_level": "LOW",
+      "risk_score": 0,
+      "diseases_flagged": "None detected",
+      "ndvi": 0.5511,
+      "moisture": 0.0764,
+      "temperature": 27.56,
+      "water": 6.8
+    },
+    {
+      "district": "Ibanda",
+      "risk_level": "LOW",
+      "risk_score": 0,
+      "diseases_flagged": "None detected",
+      "ndvi": 0.5962,
+      "moisture": 0.1014,
+      "temperature": 24.09,
+      "water": 26.67
+    },
+    {
+      "district": "Bukanga",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Fowl Typhoid",
+      "ndvi": 0.5003,
+      "moisture": 0.0359,
+      "temperature": 25.27,
+      "water": 84.01
+    },
+    {
+      "district": "Isingiro",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Fowl Typhoid",
+      "ndvi": 0.5698,
+      "moisture": 0.1112,
+      "temperature": 24.41,
+      "water": 81.67
+    },
+    {
+      "district": "Dodoth",
+      "risk_level": "LOW",
+      "risk_score": 0,
+      "diseases_flagged": "None detected",
+      "ndvi": 0.401,
+      "moisture": -0.051,
+      "temperature": 29.53,
+      "water": 9.56
+    },
+    {
+      "district": "Bulamogi",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Fowl Typhoid",
+      "ndvi": 0.4814,
+      "moisture": 0.0873,
+      "temperature": 27.87,
+      "water": 79.96
+    },
+    {
+      "district": "Budiope",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Fowl Typhoid",
+      "ndvi": 0.3948,
+      "moisture": 0.1219,
+      "temperature": 27.11,
+      "water": 93.44
+    },
+    {
+      "district": "Bugabula",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Fowl Typhoid",
+      "ndvi": 0.573,
+      "moisture": 0.1254,
+      "temperature": 27.8,
+      "water": 76.3
+    },
+    {
+      "district": "Buzaaya",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Fowl Typhoid",
+      "ndvi": 0.6059,
+      "moisture": 0.1477,
+      "temperature": 26.9,
+      "water": 73.61
+    },
+    {
+      "district": "Kween",
+      "risk_level": "LOW",
+      "risk_score": 0,
+      "diseases_flagged": "None detected",
+      "ndvi": 0.4074,
+      "moisture": 0.0053,
+      "temperature": 28.96,
+      "water": 6.67
+    },
+    {
+      "district": "Tingey",
+      "risk_level": "LOW",
+      "risk_score": 1,
+      "diseases_flagged": "Gumboro",
+      "ndvi": 0.5872,
+      "moisture": 0.1713,
+      "temperature": 24.13,
+      "water": 0.5
+    },
+    {
+      "district": "Usuk",
+      "risk_level": "MEDIUM",
+      "risk_score": 3,
+      "diseases_flagged": "Fowl Typhoid, Heat Stress",
+      "ndvi": 0.4526,
+      "moisture": -0.0303,
+      "temperature": 30.62,
+      "water": 88.41
+    },
+    {
+      "district": "Kazo",
+      "risk_level": "LOW",
+      "risk_score": 0,
+      "diseases_flagged": "None detected",
+      "ndvi": 0.5991,
+      "moisture": 0.0914,
+      "temperature": 25.13,
+      "water": 22.56
+    },
+    {
+      "district": "Nyabushozi",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Fowl Typhoid",
+      "ndvi": 0.5831,
+      "moisture": 0.0798,
+      "temperature": 24.64,
+      "water": 86.54
+    },
+    {
+      "district": "Koboko",
+      "risk_level": "LOW",
+      "risk_score": 0,
+      "diseases_flagged": "None detected",
+      "ndvi": 0.4249,
+      "moisture": -0.0462,
+      "temperature": 28.12,
+      "water": 0.0
+    },
+    {
+      "district": "Jie",
+      "risk_level": "LOW",
+      "risk_score": 1,
+      "diseases_flagged": "Heat Stress",
+      "ndvi": 0.3273,
+      "moisture": -0.1048,
+      "temperature": 32.15,
+      "water": 12.41
+    },
+    {
+      "district": "Labwor",
+      "risk_level": "LOW",
+      "risk_score": 1,
+      "diseases_flagged": "Heat Stress",
+      "ndvi": 0.437,
+      "moisture": -0.0356,
+      "temperature": 30.62,
+      "water": 11.08
+    },
+    {
+      "district": "Dokolo",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Fowl Typhoid",
+      "ndvi": 0.4493,
+      "moisture": 0.05,
+      "temperature": 28.02,
+      "water": 88.54
+    },
+    {
+      "district": "Erute",
+      "risk_level": "LOW",
+      "risk_score": 0,
+      "diseases_flagged": "None detected",
+      "ndvi": 0.5018,
+      "moisture": 0.0175,
+      "temperature": 28.52,
+      "water": 4.0
+    },
+    {
+      "district": "Lira Municipality",
+      "risk_level": "LOW",
+      "risk_score": 0,
+      "diseases_flagged": "None detected",
+      "ndvi": 0.46,
+      "moisture": 0.0516,
+      "temperature": 28.08,
+      "water": 0.17
+    },
+    {
+      "district": "Moroto",
+      "risk_level": "LOW",
+      "risk_score": 0,
+      "diseases_flagged": "None detected",
+      "ndvi": 0.4815,
+      "moisture": -0.0101,
+      "temperature": 28.98,
+      "water": 4.41
+    },
+    {
+      "district": "Otuke",
+      "risk_level": "LOW",
+      "risk_score": 0,
+      "diseases_flagged": "None detected",
+      "ndvi": 0.4048,
+      "moisture": -0.0666,
+      "temperature": 29.9,
+      "water": 3.48
+    },
+    {
+      "district": "Katikamu",
+      "risk_level": "MEDIUM",
+      "risk_score": 3,
+      "diseases_flagged": "Newcastle Disease, Gumboro",
+      "ndvi": 0.6635,
+      "moisture": 0.1896,
+      "temperature": 25.75,
+      "water": 2.35
+    },
+    {
+      "district": "Wabusana (bamunanika)",
+      "risk_level": "LOW",
+      "risk_score": 1,
+      "diseases_flagged": "Gumboro",
+      "ndvi": 0.6373,
+      "moisture": 0.1603,
+      "temperature": 26.72,
+      "water": 2.36
+    },
+    {
+      "district": "Bubulo",
+      "risk_level": "LOW",
+      "risk_score": 0,
+      "diseases_flagged": "None detected",
+      "ndvi": 0.5731,
+      "moisture": 0.1129,
+      "temperature": 25.12,
+      "water": 0.0
+    },
+    {
+      "district": "Manjiya",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Newcastle Disease",
+      "ndvi": 0.6038,
+      "moisture": 0.2327,
+      "temperature": 20.96,
+      "water": 0.0
+    },
+    {
+      "district": "Bungokho",
+      "risk_level": "LOW",
+      "risk_score": 0,
+      "diseases_flagged": "None detected",
+      "ndvi": 0.5482,
+      "moisture": 0.0879,
+      "temperature": 26.79,
+      "water": 1.43
+    },
+    {
+      "district": "Mbale Municipality",
+      "risk_level": "LOW",
+      "risk_score": 0,
+      "diseases_flagged": "None detected",
+      "ndvi": 0.5253,
+      "moisture": 0.0711,
+      "temperature": 27.79,
+      "water": 9.0
+    },
+    {
+      "district": "Kashari",
+      "risk_level": "LOW",
+      "risk_score": 0,
+      "diseases_flagged": "None detected",
+      "ndvi": 0.5914,
+      "moisture": 0.0977,
+      "temperature": 24.58,
+      "water": 15.45
+    },
+    {
+      "district": "Mbarara Municipality",
+      "risk_level": "LOW",
+      "risk_score": 0,
+      "diseases_flagged": "None detected",
+      "ndvi": 0.4408,
+      "moisture": 0.0526,
+      "temperature": 25.18,
+      "water": 17.0
+    },
+    {
+      "district": "Rwampara",
+      "risk_level": "LOW",
+      "risk_score": 0,
+      "diseases_flagged": "None detected",
+      "ndvi": 0.6437,
+      "moisture": 0.1777,
+      "temperature": 23.41,
+      "water": 4.0
+    },
+    {
+      "district": "Busujju",
+      "risk_level": "MEDIUM",
+      "risk_score": 3,
+      "diseases_flagged": "Fowl Typhoid, Gumboro",
+      "ndvi": 0.3531,
+      "moisture": 0.1968,
+      "temperature": 24.17,
+      "water": 87.75
+    },
+    {
+      "district": "Mityana",
+      "risk_level": "MEDIUM",
+      "risk_score": 3,
+      "diseases_flagged": "Fowl Typhoid, Gumboro",
+      "ndvi": 0.5784,
+      "moisture": 0.1728,
+      "temperature": 25.1,
+      "water": 88.06
+    },
+    {
+      "district": "Buwekula",
+      "risk_level": "LOW",
+      "risk_score": 0,
+      "diseases_flagged": "None detected",
+      "ndvi": 0.5846,
+      "moisture": 0.1188,
+      "temperature": 25.1,
+      "water": 18.65
+    },
+    {
+      "district": "Kassanda",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Fowl Typhoid",
+      "ndvi": 0.4922,
+      "moisture": 0.1299,
+      "temperature": 25.52,
+      "water": 86.01
+    },
+    {
+      "district": "Nakaseke",
+      "risk_level": "LOW",
+      "risk_score": 0,
+      "diseases_flagged": "None detected",
+      "ndvi": 0.5672,
+      "moisture": 0.087,
+      "temperature": 27.17,
+      "water": 2.76
+    },
+    {
+      "district": "Kisoko (west Budama)",
+      "risk_level": "LOW",
+      "risk_score": 0,
+      "diseases_flagged": "None detected",
+      "ndvi": 0.5224,
+      "moisture": 0.0349,
+      "temperature": 27.32,
+      "water": 7.69
+    },
+    {
+      "district": "Tororo",
+      "risk_level": "LOW",
+      "risk_score": 0,
+      "diseases_flagged": "None detected",
+      "ndvi": 0.5138,
+      "moisture": 0.0174,
+      "temperature": 27.92,
+      "water": 1.29
+    },
+    {
+      "district": "Tororo Municipality",
+      "risk_level": "LOW",
+      "risk_score": 0,
+      "diseases_flagged": "None detected",
+      "ndvi": 0.5693,
+      "moisture": 0.0804,
+      "temperature": 27.57,
+      "water": 1.5
+    },
+    {
+      "district": "Bukooli",
+      "risk_level": "LOW",
+      "risk_score": 2,
+      "diseases_flagged": "Fowl Typhoid",
+      "ndvi": 0.5942,
+      "moisture": 0.1071,
+      "temperature": 26.84,
+      "water": 79.96
+    }
+  ]
+}
