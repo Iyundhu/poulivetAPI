@@ -22,7 +22,7 @@ print(f"Loaded {len(risk_data)} districts!")
 
 print("Loading YOLOv8 model...")
 
-model = YOLO('poultry_best.pt')
+model = YOLO('best.pt')
 
 print("Model loaded!")
 
